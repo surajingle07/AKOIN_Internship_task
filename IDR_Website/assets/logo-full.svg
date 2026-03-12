@@ -1,0 +1,21 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon -->
+  <g transform="translate(100,100)">
+    <!-- Outer wireframe shell -->
+    <g stroke-width="8" stroke-linejoin="round" fill="none">
+      <polygon points="0,-80 69.28,-40 69.28,40 0,80 -69.28,40 -69.28,-40" stroke="#FFFFFF" />
+      <polyline points="-69.28,-40 0,0 69.28,-40" stroke="#FFFFFF" />
+      <line x1="0" y1="0" x2="0" y2="80" stroke="#FFFFFF" />
+    </g>
+    <!-- Inner solid core -->
+    <!-- Top Face -->
+    <path d="M 0 -15 L -45 -41 L 0 -67 L 45 -41 Z" fill="#FF5A00" />
+    <!-- Right Face -->
+    <path d="M 0 -15 L 45 -41 L 45 11 L 0 37 Z" fill="#88888E" />
+    <!-- Left Face -->
+    <path d="M 0 -15 L 0 37 L -45 11 L -45 -41 Z" fill="#FF5A00" opacity="0.4" />
+  </g>
+  <!-- Typography -->
+  <text x="210" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="600" fill="#FFFFFF" letter-spacing="3">INSTITUTE OF</text>
+  <text x="210" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="900" fill="#FF5A00" letter-spacing="0">DIGITAL RISK</text>
+</svg>
